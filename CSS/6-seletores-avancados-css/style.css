@@ -1,0 +1,17 @@
+li > a{
+    color: red;
+}
+
+h1 + h4 { 
+/* ai fala que todo h4 que venha depois de h1, tera essa alteracao que eu colocar */
+color: aqua;
+}
+a[href="/recibo"]{
+    /* ele vai buscar todos os href com o nome recibo */
+    color: blue;
+}
+li:nth-off-type(odd) {
+    /* ele muda o segudo li de todos */
+    color: blue;
+}
+/* > filho */

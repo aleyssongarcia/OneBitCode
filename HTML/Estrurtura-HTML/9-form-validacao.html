@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Encontre no Google</h2>
+    <form action="https://www.google.com/search" target="_blank">
+        <label for="q">O que deseja pesquisar?</label>
+        <input type="text" id="q" name="q" placeholder="Escreva sua pesquisa" required>
+        <!-- - required: nao deixa o campo em branco -->
+        <!-- - min="" ou max: define o numero maximo e minimo -->
+        <!-- - type: posso por email, number, text e outros -->
+        <input type="submit" value="Pesquisar">
+    </form>
+</body>
+</html>
+
+<!-- 
+<h3>Encontre no google</h3>
+<input list="Navegadores">
+
+<datalist id="Navegadores">
+    <option value="Internet Explore"></option>
+    <option value="Google Chrome"></option>
+    <option value="Mozilla"></option>
+    <option value="Opera"></option>
+    <option value="Safari"></option>
+    <option value="Edge"></option>
+</datalist> 
+-->

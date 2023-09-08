@@ -1,0 +1,16 @@
+li {
+    color: green;
+}
+h1 {
+    color: purple;
+    /* border-color: yellow;
+    border-width: 8px;
+    border-style: dashed; */
+
+    border: 2px dashed orange;
+}
+body {
+    background-image: url('Falcon-9-lancamento.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
